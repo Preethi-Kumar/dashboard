@@ -21,6 +21,7 @@ const SemiDoughnutChart = ({ chartData,chartOptions }) => {
           tooltips:{
             enabled:false
           },
+          cutout: 86
         }} />
         <p class="percent">
           76%

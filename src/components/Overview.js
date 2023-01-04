@@ -67,6 +67,7 @@ const Overview = () => {
         lineTension: 0.4,
       },
     ],
+    borderWidth: 30
   }
   return (
     <>
