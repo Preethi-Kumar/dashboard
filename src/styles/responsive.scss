@@ -1,0 +1,39 @@
+@media only screen and (max-width: 992px) {
+
+    .rightSidebarContainer {
+        margin-top: 1rem !important;
+    }
+
+    .navbar h3 {
+        display: none;
+    }
+
+    .dahsboardText {
+        display: block;
+    }
+
+    #basic-navbar-nav {
+        display: flex !important;
+        flex-basis: auto;
+
+        .navbar-nav {
+            flex-direction: row;
+            align-items: center;
+        }
+    }
+
+    .sidebar:not(.toggled) {
+        position: fixed;
+        overflow-y: scroll;
+        left: 0;
+        top: 0;
+        height: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    .dahsboardText {
+        display: none;
+    }
+}
